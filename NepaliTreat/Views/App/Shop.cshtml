@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Product>
+@section Scripts{
+    <script src="~/ts/storecustomer.js"></script>
+    <script src="~/ts/main.js"></script>
+}
+<h1>Shop</h1>
+<p>Count: @Model.Count()</p>
+<div class="row">
+    @foreach (var p in Model)
+    {
+        <div class="col-md-3">
+            <div class="border bg-light rounded p-1">
+                <img src="~/images/@(p.VermiImageID).jpg" class="img-fluid" alt="@p.Title" />
+                <h3>@p.Category - @p.Size</h3>
+                <ul>
+                    <li>Title: @p.Title</li>
+                    <li>Price: Rupees: @p.Price</li>
+                    <li>Pack Size: @p.Size</li>
+                    <li>Packaging Type: @p.PackagingType</li>
+                    <li>Description: @p.Description</li>
+                    <li>Manufacturer: @p.Manufacturer</li>
+                    <li>Manufactured Date: @p.ManuFacturedDate</li>
+                </ul>
+                <button id="buyButton" class="btn btn-success">Buy</button>
+            </div>
+        </div>
+    }
+</div>

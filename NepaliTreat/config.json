@@ -1,0 +1,19 @@
+{
+  "Colors": {
+    "Favorite": "blue"
+  },
+  "ConnectionStrings": {
+    "NepaliConnectionString": "server=(localdb)\\ProjectsV13;Database=NepaliTreatDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Tokens": {
+    "Key": "kharachanapathalatabhoka ; d;fadgsg marala",
+    "Issuer": "http://localhost:8080",
+    "Audience": "users"
+  }
+}

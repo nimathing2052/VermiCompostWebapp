@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NepaliTreat", "NepaliTreat\NepaliTreat.csproj", "{83E343D8-0B65-4336-87C5-D34DF80EBC26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83E343D8-0B65-4336-87C5-D34DF80EBC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E343D8-0B65-4336-87C5-D34DF80EBC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E343D8-0B65-4336-87C5-D34DF80EBC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E343D8-0B65-4336-87C5-D34DF80EBC26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A66AF91-4AC6-4B00-B9CD-7678361D511A}
+	EndGlobalSection
+EndGlobal
