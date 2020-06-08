@@ -55,11 +55,8 @@ namespace NepaliTreat.Controllers
         [Authorize]
         public IActionResult Shop()
         {
-            var results = repository.GetAllProduct();
-
-            
-            
-            return View(results);
+                  
+            return View();
         }
     }
 }

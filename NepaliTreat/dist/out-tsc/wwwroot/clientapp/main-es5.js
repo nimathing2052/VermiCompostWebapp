@@ -55,20 +55,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
                 type: AppComponent,
                 selectors: [["the-shop"]],
-                decls: 3,
-                vars: 1,
-                consts: [[1, "content", 2, "text-align", "center"]],
+                decls: 1,
+                vars: 0,
                 template: function AppComponent_Template(rf, ctx) {
                     if (rf & 1) {
-                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-                    }
-                    if (rf & 2) {
-                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Welcome to ", ctx.title, "! ");
+                        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, "./app.component.html");
                     }
                 },
                 encapsulation: 2
@@ -79,7 +70,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
                         args: [{
                                 selector: 'the-shop',
-                                template: "\n    <div style=\"text-align:center\" class=\"content\">\n      <h1>\n        Welcome to {{title}}!\n      </h1>\n    </div>\n  ",
+                                template: "./app.component.html",
                                 styles: []
                             }]
                     }], null, null);

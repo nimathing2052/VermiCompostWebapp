@@ -66,7 +66,8 @@ namespace NepaliTreat
             services.AddTransient<IMailService, NullMailService>();
 
             services.AddControllersWithViews()
-                .AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
+                .AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore)
+                .AddRazorRuntimeCompilation();
 
 
         }

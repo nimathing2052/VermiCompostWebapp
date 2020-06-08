@@ -28,6 +28,7 @@
     "jquery-validation-unobtrusive": "3.2.11",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "module": "commonjs",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
@@ -48,6 +49,7 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.9.5",
+    "module": "commonjs"
   }
 }
