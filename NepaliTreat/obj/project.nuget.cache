@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4kIZt1jQFD5hSUeyYiFKmKlfufE0LXZwXZ3DGYFZSQ3C8kccnCH7RuCc+yySgu3mKjYyAfhiTX3E1ZvBxTAddw==",
+  "dgSpecHash": "FfHJyjcsM5nFeFz/eCQvRNKv3PdnHYSqcuQ8VLue6SMOTMUUFvxqfaZvgi3HpfrbnaY/f6T1UX8fkodG9lCHhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\i25690\\OneDrive - Verisk Analytics\\Learning\\Practice\\Building Web App- Asp.Net\\Web Application\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj",
+  "projectFilePath": "C:\\Users\\i25690\\MVC-WebApp\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\i25690\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\i25690\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

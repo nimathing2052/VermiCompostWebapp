@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\i25690\\OneDrive - Verisk Analytics\\Learning\\Practice\\Building Web App- Asp.Net\\Web Application\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj": {}
+    "C:\\Users\\i25690\\MVC-WebApp\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\i25690\\OneDrive - Verisk Analytics\\Learning\\Practice\\Building Web App- Asp.Net\\Web Application\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj": {
+    "C:\\Users\\i25690\\MVC-WebApp\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\i25690\\OneDrive - Verisk Analytics\\Learning\\Practice\\Building Web App- Asp.Net\\Web Application\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj",
+        "projectUniqueName": "C:\\Users\\i25690\\MVC-WebApp\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj",
         "projectName": "NepaliTreat",
-        "projectPath": "C:\\Users\\i25690\\OneDrive - Verisk Analytics\\Learning\\Practice\\Building Web App- Asp.Net\\Web Application\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj",
+        "projectPath": "C:\\Users\\i25690\\MVC-WebApp\\NepaliTreat\\NepaliTreat\\NepaliTreat.csproj",
         "packagesPath": "C:\\Users\\i25690\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\i25690\\OneDrive - Verisk Analytics\\Learning\\Practice\\Building Web App- Asp.Net\\Web Application\\NepaliTreat\\NepaliTreat\\obj\\",
+        "outputPath": "C:\\Users\\i25690\\MVC-WebApp\\NepaliTreat\\NepaliTreat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
