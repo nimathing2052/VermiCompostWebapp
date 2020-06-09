@@ -10,10 +10,13 @@ import { Product } from "../shared/product";
 })
 export class ProductList implements OnInit {
 
-    constructor(private data: DataService) {
-    }
 
     public products: Product[] = [];
+
+    constructor(private data: DataService) {
+        this.products = data.products;
+    }
+
 
     ngOnInit() {
         this.data.loadProducts()

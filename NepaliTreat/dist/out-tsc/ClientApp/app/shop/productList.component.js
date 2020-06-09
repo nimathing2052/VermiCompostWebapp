@@ -5,6 +5,7 @@ let ProductList = /** @class */ (() => {
         constructor(data) {
             this.data = data;
             this.products = [];
+            this.products = data.products;
         }
         ngOnInit() {
             this.data.loadProducts()
@@ -13,6 +14,9 @@ let ProductList = /** @class */ (() => {
                     this.products = this.data.products;
                 }
             });
+        }
+        addProduct(product) {
+            this.data.addToOrder(product);
         }
     };
     ProductList = __decorate([

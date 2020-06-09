@@ -91,7 +91,7 @@ namespace NepaliTreat.Controllers
                     var currentUser = await userManager.FindByNameAsync(User.Identity.Name);
                     newOrder.User = currentUser;
 
-                    repository.AddEntity(newOrder);
+                    repository.AddOrder(newOrder);
 
                     if (repository.SaveAll())
                     {

@@ -1,0 +1,32 @@
+﻿<div class="row">
+    <div *ngIf="errorMessage" class="alert alert-warning col-xl-12">{{ errorMessage }}</div>
+    <h3>Confirm Order</h3>
+    <table class="table table-bordered table-hover">
+        <tr *ngFor="let o of data.order.items">
+            <td><img src="/images/{{ o.productVermiImageId }}.jpg" alt="o.productTitle" class="img-thumbnail checkout-thumb" /></td>
+            <td>{{ o.productCategory }}({{ o.productSize }}) - {{ o.productArtist }}: {{ o.productTitle }}</td>
+            <td>{{ o.quantity }}</td>
+            <td>{{ o.unitPrice|currency:'NRs.':"symbol" }}</td>
+            <td>{{ (o.unitPrice * o.quantity)|currency:'NRs.':"symbol" }}</td>
+        </tr>
+    </table>
+    <div class="col-md-4 col-md-offset-8 text-right">
+        <table class="table table-condensed">
+            <tr>
+                <td class="text-right">Subtotal</td>
+                <td class="text-right">{{ data.order.subtotal|currency:'NRs.':"symbol" }}</td>
+            </tr>
+            <tr>
+                <td class="text-right">Shipping</td>
+                <td class="text-right">NRs. 0.00</td>
+            </tr>
+            <tr>
+                <td class="text-right">Total:</td>
+                <td class="text-right">{{ data.order.subtotal|currency:'NRs.':"symbol" }}</td>
+            </tr>
+        </table>
+        <button class="btn btn-success mr-2" (click)="onCheckout()">Complete Purchase</button>
+        <a routerLink="/" class="btn btn-outline-primary">Cancel</a>
+    </div>
+
+</div>

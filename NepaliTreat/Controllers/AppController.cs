@@ -52,7 +52,6 @@ namespace NepaliTreat.Controllers
             return View();
         }
 
-        [Authorize]
         public IActionResult Shop()
         {
                   
