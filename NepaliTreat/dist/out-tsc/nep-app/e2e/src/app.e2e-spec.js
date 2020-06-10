@@ -1,3 +1,4 @@
+import { __awaiter } from "tslib";
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
 describe('workspace-project App', () => {
@@ -9,12 +10,12 @@ describe('workspace-project App', () => {
         page.navigateTo();
         expect(page.getTitleText()).toEqual('nep-app app is running!');
     });
-    afterEach(async () => {
+    afterEach(() => __awaiter(void 0, void 0, void 0, function* () {
         // Assert that there are no errors emitted from the browser
-        const logs = await browser.manage().logs().get(logging.Type.BROWSER);
+        const logs = yield browser.manage().logs().get(logging.Type.BROWSER);
         expect(logs).not.toContain(jasmine.objectContaining({
             level: logging.Level.SEVERE,
         }));
-    });
+    }));
 });
 //# sourceMappingURL=app.e2e-spec.js.map
