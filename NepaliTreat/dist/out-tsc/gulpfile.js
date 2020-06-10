@@ -8,5 +8,5 @@ gulp.task("minify", function () {
         .pipe(concat("nepalitreat.min.js"))
         .pipe(gulp.dest("wwwroot/dist"));
 });
-gulp.task('default', gulp.series("minify"), ["minify"]);
+gulp.task('default', ["minify"]);
 //# sourceMappingURL=gulpfile.js.map

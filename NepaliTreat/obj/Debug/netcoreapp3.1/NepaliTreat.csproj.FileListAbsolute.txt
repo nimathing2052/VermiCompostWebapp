@@ -1182,4 +1182,3 @@ C:\Users\i25690\MVC-WebApp\NepaliTreat\NepaliTreat\obj\Debug\netcoreapp3.1\stati
 C:\Users\i25690\MVC-WebApp\NepaliTreat\NepaliTreat\obj\Debug\netcoreapp3.1\NepaliTreat.dll
 C:\Users\i25690\MVC-WebApp\NepaliTreat\NepaliTreat\obj\Debug\netcoreapp3.1\NepaliTreat.pdb
 C:\Users\i25690\MVC-WebApp\NepaliTreat\NepaliTreat\obj\Debug\netcoreapp3.1\NepaliTreat.genruntimeconfig.cache
-C:\Users\i25690\MVC-WebApp\NepaliTreat\NepaliTreat\obj\Debug\netcoreapp3.1\NepaliTreat.csprojAssemblyReference.cache
