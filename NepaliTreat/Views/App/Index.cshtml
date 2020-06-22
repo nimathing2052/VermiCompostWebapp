@@ -1,47 +1,71 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<div class="row col-lg-14">
-    <div class="col-md-4">
-        <div class="product-info">
-            <img src="~/images/VermiCompostLarge.jpg" class="img-fluid" alt="Responsive image" />
-            <h3>Chandragiri Organic Manure</h3>
-            <ul class="product-props">
-                <li>Price: Rs. 30/kg</li>
-                <li>Brand: Chandragiri </li>
-                <li>Application: Agriculture and Horticulture</li>
-                <li>Packaging Type: Sack, Plastic</li>
-            </ul>
-            <div class="button-outline">
-                <button id="buyButton" class="btn btn-success" onclick="location.href = '/App/Shop#';">Buy</button>
-                <a href="/App/Shop#/"></a>
-            </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active"></div>
+            <div id="target" class="carousel-item"></div>
+            <div class="carousel-item"></div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
+        <div>
+            <div class="row col-lg-14">
+                <div class="col-md-4">
+                    <div class="product-info"> 
+                        <img src="~/images/VermiCompostLarge.jpg" class="img-fluid" alt="Responsive image" />
+                        <h3>Chandragiri Organic Manure</h3>
+                        <ul class="product-props">
+                            <li>Price: Rs. 30/kg</li>
+                            <li>Brand: Chandragiri </li>
+                            <li>Application: Agriculture and Horticulture</li>
+                            <li>Packaging Type: Sack, Plastic</li>
+                        </ul>
+                        <div class="button-outline">
+                            <button id="buyButton" class="btn btn-success" onclick="location.href = '/App/Shop#';">Buy</button>
+                            <a href="/App/Shop#/"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <p><h3><strong>What is VermiComposting?</strong></h3></p>
+                    <p style="text-align:justify">
+                        Vermicompost is the product of the decomposition process using various species of worms, usually red wigglers, white worms,
+                        and other earthworms, to create a mixture of decomposing vegetable or food waste, bedding materials, and vermicast. Vermicast is the end-product of the breakdown of
+                        organic matter by earthworms.
+                    </p>
+                    <p style="text-align:justify">
+                        Earthworms are valued by farmers because, in addition to aerating the soil, they digest organic matter and produce castings
+                        that are a valuable source of humus. Vermicomposting, or worm composting is a simple technology that takes advantage of this to
+                        convert biodegradable waste into organic manure with the help of earthworms (the red worm Eisenia foetida) with no pile turning,
+                        no smell, and fast production of compost. The earthworms are bred in a mix of cow dung, soil, and agricultural residues or
+                        predecomposed leaf-litter. The whole mass is converted into casts or vermicompost, which can be used as a fertilizer on all types
+                        of plants in vegetable beds, landscaping areas, or lawns.
+                    </p>
+                    <p style="text-align:justify">
+                        Worms are so effective at processing organic waste that they can digest almost half their own weight in debris every day. Vermicomposting is a simple composting process that
+                        takes advantage of what earthworms do naturally, but confines the worms to bins making it easier for farmers to feed them and to harvest
+                        their nutrient-rich compost. Since all worms digest organic matter, in principle, any type of worm can be used; however, not all are
+                        equally well adapted to living in bins since some worms prefer to live deep in the soil while others are better adapted to living closer
+                        to the surface. The red worm (Eisenia foetida) is ideal for vermicomposting because its natural habitat is close to the surface and
+                        it is accustomed to a diet rich in organic matter, this makes it ideally suited to digesting kitchen scraps and to living in bins.
+                    </p>
+                </div>
+
+            </div>
         </div>
     </div>
-    <div class="col-md-8">
-        <p><h3><strong>What is VermiComposting?</strong></h3></p>
-        <p style="text-align:justify">
-            Vermicompost is the product of the decomposition process using various species of worms, usually red wigglers, white worms,
-            and other earthworms, to create a mixture of decomposing vegetable or food waste, bedding materials, and vermicast. Vermicast is the end-product of the breakdown of
-            organic matter by earthworms.
-        </p>
-        <p style="text-align:justify">
-            Earthworms are valued by farmers because, in addition to aerating the soil, they digest organic matter and produce castings
-            that are a valuable source of humus. Vermicomposting, or worm composting is a simple technology that takes advantage of this to
-            convert biodegradable waste into organic manure with the help of earthworms (the red worm Eisenia foetida) with no pile turning,
-            no smell, and fast production of compost. The earthworms are bred in a mix of cow dung, soil, and agricultural residues or
-            predecomposed leaf-litter. The whole mass is converted into casts or vermicompost, which can be used as a fertilizer on all types
-            of plants in vegetable beds, landscaping areas, or lawns.
-        </p>
-        <p style="text-align:justify">
-            Worms are so effective at processing organic waste that they can digest almost half their own weight in debris every day. Vermicomposting is a simple composting process that
-            takes advantage of what earthworms do naturally, but confines the worms to bins making it easier for farmers to feed them and to harvest
-            their nutrient-rich compost. Since all worms digest organic matter, in principle, any type of worm can be used; however, not all are
-            equally well adapted to living in bins since some worms prefer to live deep in the soil while others are better adapted to living closer
-            to the surface. The red worm (Eisenia foetida) is ideal for vermicomposting because its natural habitat is close to the surface and
-            it is accustomed to a diet rich in organic matter, this makes it ideally suited to digesting kitchen scraps and to living in bins.
-        </p>
-    </div>
-
-</div>

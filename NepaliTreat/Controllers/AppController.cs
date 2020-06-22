@@ -39,13 +39,14 @@ namespace NepaliTreat.Controllers
         {
             if(ModelState.IsValid)
             {
-                mailService.SendMessage("nima@gmail.com", model.Date, model.OrderQuantity, $"From: {model.Name} - {model.Email}, Message: {model.Message}");
+                mailService.SendMessage("nimathing@gmail.com", model.Date, model.OrderQuantity, $"From: {model.Name} - {model.Email}, Message: {model.Message}");
                 ViewBag.UserMessage = "Mail Sent";
                 ModelState.Clear();
             }
 
             return View();
         }
+
         public IActionResult About()
         {
             ViewBag.Title = "About Us";
