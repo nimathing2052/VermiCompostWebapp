@@ -2,7 +2,8 @@
 node_modules/
 
 #Compiled Source#
+.vs/
 bin/
 *.obj
 
-e
+
