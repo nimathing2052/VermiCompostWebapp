@@ -1,1 +1,8 @@
-.vs
+#Don't track contents of these folders
+node_modules/
+
+#Compiled Source#
+bin/
+*.obj
+
+e
