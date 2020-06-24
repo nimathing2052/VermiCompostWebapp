@@ -58,17 +58,21 @@ namespace NepaliTreat.Controllers
                 {
                     if(Request.Query.Keys.Contains("ReturnUrl"))
                     {
-                        Redirect(Request.Query["ReturnUrl"].First());
+                        return Redirect(Request.Query["ReturnUrl"].First());
                     }
                     else
                     {
-                        RedirectToAction("Shop", "App");
+                        return RedirectToAction("Shop", "App");
                     }
                     
                 }
+                else
+                {
+                    ModelState.AddModelError("", "Failed to login");
+                }
             }
 
-            ModelState.AddModelError("", "Failed to login");
+            
 
             return View();
         }
